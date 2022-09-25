@@ -43,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 3.2rem;
+  margin: 0;
 }
 
 .grid-item.report .photo {
@@ -122,9 +123,42 @@ body {
   color: #bbc0ff;
 }
 
+.grid-item {
+  background-repeat: no-repeat;
+}
+
 .grid-item.work {
   background-color: #ff8b64;
   background-image: url('./images/icon-work.svg');
-  background-repeat: no-repeat;
-  background-position: 95% -13%;
+  background-position: 93% -13%;
+}
+
+.grid-item.play {
+  background-color: #55c2e6;
+  background-image: url('./images/icon-play.svg');
+  background-position: 93% -4%;
+}
+
+.grid-item.study {
+  background-color: #ff5e7d;
+  background-image: url('./images/icon-study.svg');
+  background-position: 93% -8%;
+}
+
+.grid-item.exercise {
+  background-color: #4bcf82;
+  background-image: url('./images/icon-exercise.svg');
+  background-position: 93% -1%;
+}
+
+.grid-item.social {
+  background-color: #7335d2;
+  background-image: url('./images/icon-social.svg');
+  background-position: 93% -23%;
+}
+
+.grid-item.self-care {
+  background-color: #f1c75b;
+  background-image: url('./images/icon-self-care.svg');
+  background-position: 93% -10%;
 }
