@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL]()
-- Live Site URL: [URL]()
+- Solution URL: [URL](https://www.frontendmentor.io/solutions/time-tracking-dashboard-aYsvHxq1GK)
+- Live Site URL: [URL](https://lisviks.github.io/time-tracking-dashboard-frontendmentor/)
 
 ## My process
 
