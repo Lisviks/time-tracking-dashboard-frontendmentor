@@ -243,4 +243,14 @@ body {
   .grid-item .card .time .previous {
     margin-top: 0.8rem;
   }
+
+  .grid-item:not(.report) .card:hover {
+    cursor: pointer;
+    background-color: #33397a;
+  }
+
+  .grid-item.report .time-period p:hover {
+    cursor: pointer;
+    color: #fff;
+  }
 }
