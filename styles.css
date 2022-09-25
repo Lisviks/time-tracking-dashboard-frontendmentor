@@ -163,3 +163,66 @@ body {
   background-image: url('./images/icon-self-care.svg');
   background-position: 93% -10%;
 }
+
+@media (min-width: 1150px) {
+  .container {
+    max-width: 1440px;
+    width: 1110px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    justify-items: center;
+    margin: 25.3rem 0;
+  }
+
+  .grid-item,
+  .card {
+    width: 25.5rem;
+  }
+
+  .grid-item.report {
+    background-color: #1c204b;
+    grid-row: 1 / 3;
+  }
+
+  .grid-item.report .card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3.7rem 8.4rem 8rem 3.2rem;
+  }
+
+  .grid-item.report .photo {
+    width: 7.8rem;
+    height: 7.8rem;
+  }
+
+  .grid-item.report .name p {
+    margin-top: 4.3rem;
+  }
+
+  .grid-item.report .name h1 {
+    font-size: 4rem;
+    line-height: 4.7rem;
+    margin-top: 0.3rem;
+  }
+
+  .grid-item.report .time-period {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2.6rem 15.5rem 3.2rem 3.2rem;
+  }
+
+  .grid-item.report .time-period p {
+    margin-top: 2.1rem;
+  }
+
+  .grid-item.report .time-period p:first-child {
+    margin: 0;
+  }
+
+  .grid-item.report .time-period p.active {
+    color: #fff;
+  }
+}
