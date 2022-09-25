@@ -38,17 +38,11 @@ const changeDataOnCards = (timeframe) => {
   });
 };
 
-gridItems.forEach(async (item) => {
-  const currentElement = item.querySelector('.current span');
-  const previousElement = item.querySelector('.previous');
+const init = () => {
+  changeDataOnCards('weekly');
+};
 
-  const data = await getData();
-  data.forEach((dat) => {
-    if (dat.title.toLowerCase().split(' ').join('-') === item.classList[1]) {
-      displayData(currentElement, previousElement, 'monthly', dat);
-    }
-  });
-});
+init();
 
 dailyBtn.addEventListener('click', () => {
   dailyBtn.classList.add('active');
