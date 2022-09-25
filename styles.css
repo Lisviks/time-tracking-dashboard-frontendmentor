@@ -222,7 +222,25 @@ body {
     margin: 0;
   }
 
-  .grid-item.report .time-period p.active {
-    color: #fff;
+  .grid-item .card {
+    padding: 2.9rem 3.5rem 3.2rem 3rem;
+    margin-top: 4.5rem;
+    position: relative;
+    bottom: -1px;
+  }
+
+  .grid-item .card .time {
+    margin-top: 2.4rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .grid-item .card .time .current {
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+  }
+
+  .grid-item .card .time .previous {
+    margin-top: 0.8rem;
   }
 }
