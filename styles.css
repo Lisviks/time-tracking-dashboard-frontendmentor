@@ -26,6 +26,7 @@ body {
   grid-template-columns: 1fr;
   gap: 2.4rem;
   justify-items: center;
+  margin: 8.1rem 0;
 }
 
 .grid-item,
